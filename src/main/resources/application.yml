@@ -5,8 +5,8 @@
 # ════════════════════════════════════════════════════════════
 
 server:
-  port: 8088
-
+  port: ${PORT:8088}
+  
 spring:
   application:
     name: ms-envios
